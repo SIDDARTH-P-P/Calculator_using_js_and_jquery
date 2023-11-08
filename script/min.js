@@ -25,17 +25,26 @@ let back = () =>{
     input.value = back.join('')
 }
 
+$("body").css({
+    backgroundColor:"pink", 
+})
+
 $("span").css({
-    borderRadius:"50%"
+    paddingLeft: "40px",
+    marginLeft:"20px",
+    marginRight:"40px",
+    paddingBottom:"60px"
 })
 $("#clr").css({
     paddingLeft:"10px",
     paddingRight:"20px"
 })
 $("input").css({
-    marginLeft:"20px",
+    paddingLeft:"30px",
+    marginLeft:"60px",
 })
 $("div").css({
+    backgroundColor:"black",
     color: "red",
     border:"solid",
     paddingTop:"30px",
